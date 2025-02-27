@@ -149,6 +149,17 @@
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "MyComponent",
+          "__guid": "86b43945-1348-4313-b0c7-cc4fe41bc208",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "StringProperty": null
         }
       ]
     },
