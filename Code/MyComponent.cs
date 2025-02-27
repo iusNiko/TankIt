@@ -6,7 +6,7 @@ public sealed class MyComponent : Component
 	protected override void OnUpdate()
 	{
 		if(Input.Pressed("attack1")) {
-			Log.Info("kliknąłeś w myszkę!");
+			Log.Info("do dupy se kliknij");
 		}
 	}
 }
