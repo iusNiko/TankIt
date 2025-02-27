@@ -7,6 +7,7 @@ public sealed class MyComponent : Component
 	{
 		if(Input.Pressed("attack1")) {
 			Log.Info("do dupy se kliknij");
+			Log.Error("Error: User can't");
 		}
 	}
 }
