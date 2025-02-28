@@ -1,6 +1,6 @@
 using Sandbox;
 
-public class SboxUtils {
+public static class SboxUtils {
     public static void ChangeParticleScale(ref GameObject particleParent, float scale) {
         foreach(GameObject particleEffect in particleParent.Children) {
             ParticleEffect effect = particleEffect.GetComponent<ParticleEffect>();
