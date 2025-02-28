@@ -913,7 +913,11 @@
       {
         "__type": "BulletBehaviour",
         "__guid": "07063610-61d5-400d-aaf8-9cd3584c7958",
-        "Lifespan": 5,
+        "Explosion": {
+          "_type": "gameobject",
+          "prefab": "prefabs/explosion.medium.prefab"
+        },
+        "Lifespan": 1,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
