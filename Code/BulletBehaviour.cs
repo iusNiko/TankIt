@@ -4,7 +4,7 @@ using Sandbox;
 public partial class BulletBehaviour : Component
 {
     [Property] public float Velocity = 50;
-    [Property] public float Lifespan = 5;
+    [Property] public float Lifespan = 1;
     [Property] public GameObject Explosion;
      
      protected override void OnUpdate()
@@ -21,7 +21,7 @@ public partial class BulletBehaviour : Component
 	protected override void OnDestroy()
 	{
 		GameObject explosion = Explosion.Clone(WorldPosition);
-        SboxUtils.ChangeParticleScale(ref explosion, 10f);
+        SboxUtils.ChangeParticleScale(ref explosion, 0.2f);
 	}
 
 	void BulletMovement()

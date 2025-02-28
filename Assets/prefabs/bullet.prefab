@@ -917,7 +917,7 @@
           "_type": "gameobject",
           "prefab": "prefabs/explosion.medium.prefab"
         },
-        "Lifespan": 5,
+        "Lifespan": 1,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
