@@ -1,3 +1,4 @@
+using System;
 using Sandbox;
 
 public partial class BulletBehaviour : Component
@@ -19,7 +20,8 @@ public partial class BulletBehaviour : Component
 
 	protected override void OnDestroy()
 	{
-		Explosion.Clone(WorldPosition);
+		GameObject explosion = Explosion.Clone(WorldPosition);
+        SboxUtils.ChangeParticleScale(ref explosion, 1f);
 	}
 
 	void BulletMovement()
