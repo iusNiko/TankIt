@@ -912,19 +912,19 @@
       },
       {
         "__type": "BulletBehaviour",
-        "__guid": "07063610-61d5-400d-aaf8-9cd3584c7958",
+        "__guid": "b59aeb2c-ebb3-47f4-9c48-f8e3af1c1ad7",
         "Explosion": {
           "_type": "gameobject",
           "prefab": "prefabs/explosion.medium.prefab"
         },
-        "Lifespan": 1,
+        "Lifespan": 5,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
-        "Velocity": 100
+        "Velocity": 50
       }
     ],
     "Children": [],

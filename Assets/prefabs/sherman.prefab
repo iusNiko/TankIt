@@ -93,7 +93,7 @@
       },
       {
         "__type": "PlayerTank",
-        "__guid": "b4c6bdc0-af43-4537-b507-ac69af65caaf",
+        "__guid": "c57ce10c-4531-47cd-bbcf-8a454461349b",
         "Barrel": {
           "_type": "gameobject",
           "go": "b6afc27f-a8c8-4743-baa6-853e6925e65f"
@@ -102,7 +102,7 @@
           "_type": "gameobject",
           "prefab": "prefabs/bullet.prefab"
         },
-        "Cooldown": 1,
+        "Cooldown": 0.5,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,

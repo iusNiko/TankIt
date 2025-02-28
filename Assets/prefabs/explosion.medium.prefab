@@ -1,12 +1,13 @@
 {
   "RootObject": {
-    "__guid": "51bf5bdd-a0e0-45bb-a342-e9de8e41f0f0",
+    "__guid": "2f792996-66ad-4fa9-818d-5d2a3e75ccd9",
     "Flags": 0,
     "Name": "explosion.medium",
+    "Position": "-85.71149,-303.7496,2",
     "Enabled": true,
     "Children": [
       {
-        "__guid": "e5dafee0-d200-41c5-966f-fbf4033399d2",
+        "__guid": "428da42c-07ed-43f5-bcf1-01d1746df016",
         "Flags": 0,
         "Name": "Large Flare",
         "Rotation": "0,-0.7071068,0,0.7071068",
@@ -15,7 +16,7 @@
         "Components": [
           {
             "__type": "Sandbox.ParticleEffect",
-            "__guid": "3f4e49cf-184f-452c-8df8-386755906694",
+            "__guid": "d5a2e790-d36b-4c1e-b591-b8e2323f5fd7",
             "__version": 1,
             "Alpha": {
               "Type": "Curve",
@@ -154,7 +155,7 @@
               "Type": "Curve",
               "Evaluation": "Life",
               "CurveA": {
-                "rangey": "0,40",
+                "rangey": "0,120",
                 "frames": [
                   {
                     "x": 0,
@@ -164,7 +165,7 @@
                     "mode": "Mirrored"
                   },
                   {
-                    "x": 0.011813468,
+                    "x": 0.014880952,
                     "y": 1,
                     "in": 0,
                     "out": 0,
@@ -233,7 +234,7 @@
           },
           {
             "__type": "Sandbox.ParticleSpriteRenderer",
-            "__guid": "cb80e658-d6c0-4273-bdc4-f1ff8b5f4de3",
+            "__guid": "83cafa8f-4065-45d1-a112-2c9bebd393c9",
             "Additive": true,
             "Alignment": "LookAtCamera",
             "BlurAmount": 1,
@@ -267,7 +268,7 @@
           },
           {
             "__type": "Sandbox.ParticleConeEmitter",
-            "__guid": "026b7387-a3a6-4772-9f35-3c46f090156d",
+            "__guid": "4697a306-4124-42f1-9046-ac608614c09d",
             "Burst": 1,
             "CenterBias": 0,
             "CenterBiasVelocity": 0,
@@ -294,7 +295,7 @@
         ]
       },
       {
-        "__guid": "f820fbaf-2b53-493a-b052-55dc52176c16",
+        "__guid": "4c9216df-fda6-4070-a711-d4a34f0abe30",
         "Flags": 0,
         "Name": "Initial Fire",
         "Position": "0,0,16",
@@ -304,7 +305,7 @@
         "Components": [
           {
             "__type": "Sandbox.ParticleEffect",
-            "__guid": "f2506eb0-4e68-4f8b-98b4-73e941585d1f",
+            "__guid": "75862fac-c735-4915-b239-7fba56c81fbd",
             "__version": 1,
             "Alpha": {
               "Type": "Curve",
@@ -490,7 +491,7 @@
               "Type": "Curve",
               "Evaluation": "Life",
               "CurveA": {
-                "rangey": "0,50",
+                "rangey": "0,170",
                 "frames": [
                   {
                     "x": 0,
@@ -576,7 +577,7 @@
           },
           {
             "__type": "Sandbox.ParticleSpriteRenderer",
-            "__guid": "c1042475-01c8-4bdb-a10e-17b4f28c6720",
+            "__guid": "7fc3a84a-bb1f-4b0f-9acf-3c029f1041e3",
             "Additive": true,
             "Alignment": "LookAtCamera",
             "BlurAmount": 0.05,
@@ -610,7 +611,7 @@
           },
           {
             "__type": "Sandbox.ParticleConeEmitter",
-            "__guid": "3c736f60-febf-4786-accd-55fb90895bcd",
+            "__guid": "4acbe6b8-d469-4577-9590-e930891264f7",
             "Burst": 1,
             "CenterBias": 0,
             "CenterBiasVelocity": 0,
@@ -636,7 +637,7 @@
           },
           {
             "__type": "Sandbox.ParticleLightRenderer",
-            "__guid": "726cd355-3710-4acc-8acf-916a9f199cce",
+            "__guid": "f69daa77-7776-47b3-ab76-112a2a99cdae",
             "Attenuation": 1,
             "Brightness": {
               "Type": "Curve",
@@ -719,7 +720,7 @@
         ]
       },
       {
-        "__guid": "10a49276-2aee-4956-a990-479fb59bb826",
+        "__guid": "0a3a869f-5848-4ae8-8831-42613c4a22e1",
         "Flags": 0,
         "Name": "Smoke",
         "Position": "0,0,22.57556",
@@ -729,7 +730,7 @@
         "Components": [
           {
             "__type": "Sandbox.ParticleEffect",
-            "__guid": "647cebba-9718-4121-abe7-eae60d1db7f9",
+            "__guid": "3f7f47be-9d6e-408e-a730-3189fc1edbfb",
             "__version": 1,
             "Alpha": {
               "Type": "Curve",
@@ -923,7 +924,7 @@
               "Type": "Curve",
               "Evaluation": "Life",
               "CurveA": {
-                "rangey": "0,50",
+                "rangey": "0,200",
                 "frames": [
                   {
                     "x": 0.014880952,
@@ -1032,7 +1033,7 @@
                   "mode": "Mirrored"
                 }
               ],
-              "Constants": "100,200,0,0"
+              "Constants": "400,800,0,0"
             },
             "Stretch": 0,
             "TimeScale": 1,
@@ -1041,7 +1042,7 @@
           },
           {
             "__type": "Sandbox.ParticleSpriteRenderer",
-            "__guid": "8268493d-fd2b-42f2-ad69-fc4a962da8e5",
+            "__guid": "4676ad31-1c78-4e57-9aaf-222202c32f14",
             "Additive": false,
             "Alignment": "LookAtCamera",
             "BlurAmount": 0.05,
@@ -1075,7 +1076,7 @@
           },
           {
             "__type": "Sandbox.ParticleSphereEmitter",
-            "__guid": "a709c688-3112-4283-a680-e0f16e43c4e8",
+            "__guid": "c54b859e-be2d-4ac9-9dd2-9d2930491093",
             "Burst": 25,
             "Delay": 0,
             "DestroyOnEnd": true,
@@ -1096,17 +1097,16 @@
         ]
       },
       {
-        "__guid": "39181c36-af2a-4927-b962-759e538578d2",
+        "__guid": "eca40ea4-cd57-4358-be36-44c51d0b0ecd",
         "Flags": 0,
         "Name": "Dust Ring ",
         "Rotation": "0,-0.7071068,0,0.7071068",
-        "Scale": "0.2,0.2,0.2",
         "Tags": "particles",
         "Enabled": true,
         "Components": [
           {
             "__type": "Sandbox.ParticleEffect",
-            "__guid": "3b8f97e1-b03f-4c66-8e09-05e77a0bb343",
+            "__guid": "6eb98095-1add-4d1b-8343-229fe5ee275a",
             "__version": 1,
             "Alpha": {
               "Type": "Curve",
@@ -1293,7 +1293,7 @@
               "Type": "CurveRange",
               "Evaluation": "Life",
               "CurveA": {
-                "rangey": "0,50",
+                "rangey": "0,150",
                 "frames": [
                   {
                     "x": 0,
@@ -1319,7 +1319,7 @@
                 ]
               },
               "CurveB": {
-                "rangey": "0,50",
+                "rangey": "0,150",
                 "frames": [
                   {
                     "x": 0,
@@ -1395,7 +1395,7 @@
                   "mode": "Mirrored"
                 }
               ],
-              "Constants": "50,200,0,0"
+              "Constants": "100,800,0,0"
             },
             "Stretch": 0,
             "TimeScale": 1,
@@ -1404,7 +1404,7 @@
           },
           {
             "__type": "Sandbox.ParticleSpriteRenderer",
-            "__guid": "f50ca211-1075-4842-ae6e-fb936d1c4445",
+            "__guid": "da4b55a8-e8d3-4c24-b362-23114a05d8c3",
             "Additive": true,
             "Alignment": "LookAtCamera",
             "BlurAmount": 0.05,
@@ -1438,7 +1438,7 @@
           },
           {
             "__type": "Sandbox.ParticleConeEmitter",
-            "__guid": "3200a9b6-6a40-4df4-854d-a68d97af0f3c",
+            "__guid": "46ca4461-c94d-4d1a-8d46-6414d68bec13",
             "Burst": 25,
             "CenterBias": 0,
             "CenterBiasVelocity": 0,
@@ -1465,7 +1465,7 @@
         ]
       },
       {
-        "__guid": "97bd0c83-92eb-4969-b2ca-9202d30a9638",
+        "__guid": "11d93121-9751-4dff-96e7-ffff6bf30b77",
         "Flags": 0,
         "Name": "Debris",
         "Rotation": "0,-0.7071068,0,0.7071068",
@@ -1474,7 +1474,7 @@
         "Components": [
           {
             "__type": "Sandbox.ParticleEffect",
-            "__guid": "9dd4e76b-eaa2-4a5c-9201-dc55c19e5217",
+            "__guid": "3609cef9-f40a-44f0-ac52-9670e184be29",
             "__version": 1,
             "Alpha": {
               "Type": "Curve",
@@ -1650,7 +1650,7 @@
               "Type": "CurveRange",
               "Evaluation": "Life",
               "CurveA": {
-                "rangey": "0,40",
+                "rangey": "0,80",
                 "frames": [
                   {
                     "x": 0,
@@ -1676,7 +1676,7 @@
                 ]
               },
               "CurveB": {
-                "rangey": "0,40",
+                "rangey": "0,80",
                 "frames": [
                   {
                     "x": 0,
@@ -1769,7 +1769,7 @@
                   "mode": "Mirrored"
                 }
               ],
-              "Constants": "200,500,0,0"
+              "Constants": "1200,1700,0,0"
             },
             "Stretch": 0,
             "TimeScale": 1,
@@ -1778,7 +1778,7 @@
           },
           {
             "__type": "Sandbox.ParticleSpriteRenderer",
-            "__guid": "0f28eebf-941e-47cc-b6fa-6550b57aa864",
+            "__guid": "866ed608-9e3b-4237-b8d2-d66b36ce39ef",
             "Additive": false,
             "Alignment": "LookAtCamera",
             "BlurAmount": 0.03,
@@ -1812,7 +1812,7 @@
           },
           {
             "__type": "Sandbox.ParticleConeEmitter",
-            "__guid": "df06f0e8-3952-403f-8f43-b03b65c66d38",
+            "__guid": "98ca2d11-c6be-4ae2-86e4-d64dab5ebbc0",
             "Burst": 15,
             "CenterBias": 0,
             "CenterBiasVelocity": 0,
@@ -1839,7 +1839,7 @@
         ]
       },
       {
-        "__guid": "f75fe007-e7f0-45a0-98f3-7ef894d3aca0",
+        "__guid": "ec1a7349-d6f8-4855-be1e-490996faa216",
         "Flags": 0,
         "Name": "Embers",
         "Rotation": "0,-0.7071068,0,0.7071068",
@@ -1848,7 +1848,7 @@
         "Components": [
           {
             "__type": "Sandbox.ParticleEffect",
-            "__guid": "b175d4f6-fe1a-4ecd-b1c6-3eaf865e81fe",
+            "__guid": "5411fc78-4dda-4994-a296-72746a7aaa97",
             "__version": 1,
             "Alpha": {
               "Type": "Curve",
@@ -2046,7 +2046,7 @@
               "Type": "CurveRange",
               "Evaluation": "Life",
               "CurveA": {
-                "rangey": "0,3",
+                "rangey": "0,5",
                 "frames": [
                   {
                     "x": 0,
@@ -2072,7 +2072,7 @@
                 ]
               },
               "CurveB": {
-                "rangey": "0,3",
+                "rangey": "0,5",
                 "frames": [
                   {
                     "x": 0,
@@ -2187,7 +2187,7 @@
                   "mode": "Mirrored"
                 }
               ],
-              "Constants": "200,500,0,0"
+              "Constants": "700,1500,0,0"
             },
             "Stretch": 0,
             "TimeScale": 1,
@@ -2196,7 +2196,7 @@
           },
           {
             "__type": "Sandbox.ParticleSpriteRenderer",
-            "__guid": "786e3ffb-78d3-4749-bb93-7e769dda66d0",
+            "__guid": "cfc08d11-831b-4d69-814e-2affcc804307",
             "Additive": true,
             "Alignment": "LookAtCamera",
             "BlurAmount": 0.03,
@@ -2230,7 +2230,7 @@
           },
           {
             "__type": "Sandbox.ParticleConeEmitter",
-            "__guid": "75409842-45a0-49dd-a9c7-6023fa759b30",
+            "__guid": "1db282ab-9447-4685-9fd4-f4312ca2c28f",
             "Burst": 15,
             "CenterBias": 0,
             "CenterBiasVelocity": 0,
@@ -2257,7 +2257,7 @@
         ]
       },
       {
-        "__guid": "c3b6a92f-04d2-4329-9c1b-3b0f8edce8fa",
+        "__guid": "7ef83a1f-50ef-40d3-97a8-bdabec4511ec",
         "Flags": 0,
         "Name": "Shockwave",
         "Tags": "particles",
@@ -2265,7 +2265,7 @@
         "Components": [
           {
             "__type": "Sandbox.ParticleEffect",
-            "__guid": "2201f53e-ba80-436e-8939-10e6d77d1838",
+            "__guid": "a81c9736-dd2b-4813-88c8-701ce9a4ac82",
             "__version": 1,
             "Alpha": {
               "Type": "Curve",
@@ -2397,7 +2397,7 @@
               "Type": "Curve",
               "Evaluation": "Life",
               "CurveA": {
-                "rangey": "0,150",
+                "rangey": "0,450",
                 "frames": [
                   {
                     "x": 0,
@@ -2440,7 +2440,7 @@
           },
           {
             "__type": "Sandbox.ParticleSpriteRenderer",
-            "__guid": "d9ff9c0c-0ded-468e-a922-2f5b7f7bf849",
+            "__guid": "875ea0a1-5667-49e0-9858-694fbcc1948b",
             "Additive": true,
             "Alignment": "Particle",
             "BlurAmount": 0.5,
@@ -2474,7 +2474,7 @@
           },
           {
             "__type": "Sandbox.ParticleSphereEmitter",
-            "__guid": "4674fd26-d71a-4fdc-bc18-a00d129b4410",
+            "__guid": "ff314827-aa4c-4bed-a88d-9fd412bcc5bd",
             "Burst": 2,
             "Delay": 0,
             "DestroyOnEnd": true,
@@ -2494,31 +2494,7 @@
           }
         ]
       }
-    ],
-    "__variables": [],
-    "__properties": {
-      "FixedUpdateFrequency": 50,
-      "MaxFixedUpdates": 5,
-      "NetworkFrequency": 30,
-      "NetworkInterpolation": true,
-      "PhysicsSubSteps": 1,
-      "ThreadedAnimation": true,
-      "TimeScale": 1,
-      "UseFixedUpdate": true,
-      "Metadata": {},
-      "NavMesh": {
-        "Enabled": false,
-        "IncludeStaticBodies": true,
-        "IncludeKeyframedBodies": true,
-        "EditorAutoUpdate": true,
-        "AgentHeight": 64,
-        "AgentRadius": 16,
-        "AgentStepSize": 18,
-        "AgentMaxSlope": 40,
-        "ExcludedBodies": "",
-        "IncludedBodies": ""
-      }
-    }
+    ]
   },
   "ShowInMenu": false,
   "MenuPath": null,
