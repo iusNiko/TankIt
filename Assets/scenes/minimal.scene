@@ -103,7 +103,7 @@
       "__guid": "6ad70641-3c6c-4402-9c85-9a4969af4764",
       "Flags": 0,
       "Name": "Plane",
-      "Scale": "5,5,5",
+      "Scale": "50,50,5",
       "Enabled": true,
       "Components": [
         {
@@ -167,7 +167,7 @@
       "__guid": "3ee1c9f4-07be-4e0b-8b23-67bee2d8ec8a",
       "Flags": 0,
       "Name": "Camera",
-      "Position": "-388.9262,22.25599,597.428",
+      "Position": "-955.2297,22.25599,1668.014",
       "Rotation": "0,0.5,0,0.8660254",
       "Enabled": true,
       "Components": [
@@ -272,12 +272,12 @@
       ]
     },
     {
-      "__guid": "89821fba-abd4-4b32-a0ed-452b8b4dc9c8",
+      "__guid": "389e82a9-0e17-4a48-bd23-50e810994a5a",
       "Flags": 0,
-      "Name": "sherman",
-      "Position": "-127.1781,115.4476,0.574222",
+      "Name": "playertank",
+      "Position": "-119.6246,-24.6452,181.8872",
       "Enabled": true,
-      "__Prefab": "prefabs/sherman.prefab",
+      "__Prefab": "prefabs/playertank.prefab",
       "__PrefabVariables": {}
     }
   ],
