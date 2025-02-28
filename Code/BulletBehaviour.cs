@@ -21,7 +21,7 @@ public partial class BulletBehaviour : Component
 	protected override void OnDestroy()
 	{
 		GameObject explosion = Explosion.Clone(WorldPosition);
-        SboxUtils.ChangeParticleScale(ref explosion, 1f);
+        SboxUtils.ChangeParticleScale(ref explosion, 10f);
 	}
 
 	void BulletMovement()
