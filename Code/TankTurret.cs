@@ -4,9 +4,10 @@ public sealed class TankTurret : Component
 {
 	protected override void OnUpdate()
 	{
-		Vector3 pos = PlayerCamera.Camera.ScreenToWorld(Mouse.Position);
-		
-		Vector3 traceStart = pos;
-		Vector3 traceDirection;
+		SceneTraceResult traceResult = Scene.Trace.Ray(PlayerCamera.Camera.ScreenPixelToRay(Mouse.Position), 10000f).Run();
+		Vector3 lookPos = traceResult.HitPosition;
+		lookPos.z = 0;
+		WorldRotation = Rotation.LookAt(lookPos);
+		WorldRotation = Rotation.From(WorldRotation.Pitch(), WorldRotation.Yaw() - 90, WorldRotation.Roll());
 	}
 }
