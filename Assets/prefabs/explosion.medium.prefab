@@ -3,8 +3,19 @@
     "__guid": "2f792996-66ad-4fa9-818d-5d2a3e75ccd9",
     "Flags": 0,
     "Name": "explosion.medium",
-    "Position": "-85.71149,-303.7496,2",
     "Enabled": true,
+    "Components": [
+      {
+        "__type": "ExplosionDelete",
+        "__guid": "778af368-33dc-4519-b38d-4c302fb36e2f",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null
+      }
+    ],
     "Children": [
       {
         "__guid": "428da42c-07ed-43f5-bcf1-01d1746df016",
@@ -2494,7 +2505,31 @@
           }
         ]
       }
-    ]
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
   },
   "ShowInMenu": false,
   "MenuPath": null,
